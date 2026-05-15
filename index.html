@@ -9,23 +9,6 @@
 <body>
     <app-header></app-header>
 	
-	<app-modal id="modal">
-		<div data-modal-title>
-			Заголовок модалки
-		</div>
-	</app-modal>
-	
-	<button id="openModal">
-		Открыть модалку
-	</button>
-	
-	<script>
-		const modal = document.querySelector('#modal');
-		const button = document.querySelector('#openModal');
-		
-		button.addEventListener('click', () => {
-			modal.open();
-		});
-	</script>
+	<hero-section></hero-section>
 </body>
 </html>

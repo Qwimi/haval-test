@@ -1,15 +1,20 @@
 .btn {
     display: flex;
-    padding: 20px 22px;
+    padding: 1.3125em 1.375em 1.25em 1.375em;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    border: none;
+    font-family: var(--font-primary), sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
 
     transition:
             color var(--animation-fast) ease,
             background var(--animation-fast) ease;
 
-    &.bth--cyan {
+    &.btn--cyan {
         color: var(--color-white);
         background: var(--color-cyan);
     }
@@ -28,5 +33,11 @@
         &:hover {
             background: var(--color-gray);
         }
+    }
+}
+
+@media (width <= 768px) {
+    .btn {
+        font-size: 14px;
     }
 }
