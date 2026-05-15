@@ -4,6 +4,8 @@
     position: sticky;
     top: 0;
 
+    transition: color var(--animation-fast), background var(--animation-fast);
+
     .header__first-line {
         padding-block: 14px;
         display: flex;
