@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Haval';
+    src: url('../assets/fonts/Haval-Regular.eot');
+    src: local('Haval Regular'), local('Haval-Regular'),
+    url('../assets/fonts/Haval-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/Haval-Regular.woff2') format('woff2'),
+    url('../assets/fonts/Haval-Regular.woff') format('woff'),
+    url('../assets/fonts/Haval-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haval';
+    src: url('../assets/fonts/Haval-Medium.eot');
+    src: local('Haval Medium'), local('Haval-Medium'),
+    url('../assets/fonts/Haval-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/Haval-Medium.woff2') format('woff2'),
+    url('../assets/fonts/Haval-Medium.woff') format('woff'),
+    url('../assets/fonts/Haval-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haval';
+    src: url('../assets/fonts/Haval-MediumSlanted.eot');
+    src: local('Haval MediumSlanted'), local('Haval-MediumSlanted'),
+    url('../assets/fonts/Haval-MediumSlanted.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/Haval-MediumSlanted.woff2') format('woff2'),
+    url('../assets/fonts/Haval-MediumSlanted.woff') format('woff'),
+    url('../assets/fonts/Haval-MediumSlanted.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haval';
+    src: url('../assets/fonts/Haval-Light.eot');
+    src: local('Haval Light'), local('Haval-Light'),
+    url('../assets/fonts/Haval-Light.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/Haval-Light.woff2') format('woff2'),
+    url('../assets/fonts/Haval-Light.woff') format('woff'),
+    url('../assets/fonts/Haval-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,19 @@
+:root {
+    --color-white: #ffffff;
+    --color-gray:  #f3f3f3;
+    --color-black: #000000;
+    --color-cyan:  #00c2cb;
+
+    --font-primary: 'Haval', 'Arial', sans-serif;
+    --font-secondary: 'TT Wellington', 'Arial', sans-serif;
+
+    --animation-fast: 0.15s;
+    --animation-base: 0.3s;
+    --animation-slow: 0.5s;
+
+    /*--breakpoint-sm: 576px;*/
+    /*--breakpoint-md: 768px;*/
+    /*--breakpoint-lg: 992px;*/
+    /*--breakpoint-xl: 1200px;*/
+    /*--breakpoint-xxl: 1400px;*/
+}
