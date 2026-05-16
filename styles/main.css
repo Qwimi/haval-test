@@ -6,12 +6,16 @@
 @import url('components/button.css');
 @import url('components/modal.css');
 @import url('components/hero.css');
+@import url('components/timer-section.css');
+
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: var(--font-primary), sans-serif;
     background-color: var(--color-white);
     color: var(--color-black);
-    min-height: 300vh;
     overflow-x: hidden;
 }
 

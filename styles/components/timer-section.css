@@ -1,0 +1,55 @@
+.sinoby-timer-wrapper {
+    display: block;
+    min-height: 116px;
+
+    .sinoby-digit-value {
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 767px) {
+    .sinoby-timer-wrapper {
+        min-height: 84px;
+    }
+}
+
+.timer-section {
+    background-color: var(--color-gray);
+    padding-block: 35px 18px;
+
+    .timer-section__title {
+        font-weight: 400;
+        font-size: 16px;
+        vertical-align: middle;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+    }
+
+    .timer-section__content {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .timer-section__cta {
+        white-space: nowrap;
+    }
+
+    .timer-section__timer {
+        max-width: 570px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .timer-section {
+        .timer-section__title {
+            text-align: center;
+        }
+
+        .timer-section__content {
+            flex-direction: column;
+        }
+    }
+}
