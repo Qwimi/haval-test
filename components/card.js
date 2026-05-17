@@ -61,7 +61,7 @@ class CarCard extends HTMLElement {
         `).join('');
 
         // language=HTML
-        const slidesHtml = images.map((image, index) => `
+        const slidesHtml = images.map((image) => `
 			<div class="swiper-slide">
 				<a
 						href="${image.url}"
