@@ -20,7 +20,7 @@
     .header__logo {
         height: 42px;
         width: 162px;
-        background: url("assets/images/logo.png") no-repeat;
+        background: url("../../assets/images/logo.png") no-repeat;
         font-size: 11px;
     }
 
