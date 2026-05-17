@@ -59,7 +59,7 @@ class AppHeader extends HTMLElement {
 						
 						<div class="header__second-line">
 							<div class="header__models">
-								${modelNames.map(name => `<a href="#${name}" class="header__link">${name}</a>`).join('')}
+								${modelNames.map(name => `<a href="#${name.replace(/\s/g, '_')}" class="header__link">${name}</a>`).join('')}
 							</div>
 							
 							<div class="header__static-links">

@@ -19,6 +19,14 @@ class AppModal extends HTMLElement {
             .classList.remove('modal--active');
     }
 
+    setTitle(title) {
+        const titleElement = this.querySelector('.modal__title');
+
+        if (titleElement) {
+            titleElement.innerHTML = title;
+        }
+    }
+
     render() {
         const title =
             this.querySelector('[data-modal-title]')?.innerHTML || '';
@@ -27,7 +35,6 @@ class AppModal extends HTMLElement {
             this.querySelector('[data-modal-content]')?.innerHTML ||
             'Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem.';
 
-        // language=HTML
         this.innerHTML = `
 			<div class="modal">
 				<div class="modal__overlay"></div>

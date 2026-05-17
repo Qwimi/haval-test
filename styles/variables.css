@@ -1,8 +1,14 @@
 :root {
     --color-white: #ffffff;
+
     --color-gray:  #f3f3f3;
+
     --color-black: #000000;
+    --color-black-20: color-mix(in srgb, var(--color-black) 20%, var(--color-white));
+    --color-black-80: color-mix(in srgb, var(--color-black) 80%, var(--color-white));
+
     --color-cyan:  #00c2cb;
+    --color-cyan-80: color-mix(in srgb, var(--color-cyan) 80%, var(--color-white));
 
     --font-primary: 'Haval', 'Arial', sans-serif;
     --font-secondary: 'TT Wellington', 'Arial', sans-serif;

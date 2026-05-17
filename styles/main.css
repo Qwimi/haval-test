@@ -7,6 +7,11 @@
 @import url('components/modal.css');
 @import url('components/hero.css');
 @import url('components/timer-section.css');
+@import url('components/card.css');
+
+* {
+    box-sizing: border-box;
+}
 
 html {
     scroll-behavior: smooth;
