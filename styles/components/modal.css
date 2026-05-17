@@ -13,9 +13,8 @@
     visibility: hidden;
     pointer-events: none;
 
-    transition:
-            opacity var(--animation-base) ease,
-            visibility var(--animation-base) ease;
+    transition: opacity var(--animation-base) ease,
+    visibility var(--animation-base) ease;
 
     &.modal--active {
         opacity: 1;
@@ -64,9 +63,8 @@
 
         transform: translateY(20px) scale(.96);
 
-        transition:
-                opacity var(--animation-base) ease,
-                transform var(--animation-base) ease;
+        transition: opacity var(--animation-base) ease,
+        transform var(--animation-base) ease;
     }
 
     .modal__close {
@@ -85,11 +83,48 @@
 
         font-size: 28px;
         font-weight: 500;
+
+        max-width: 95%;
     }
 
     .modal__body {
         font-size: 16px;
         line-height: 1.25;
         font-weight: 300;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        .btn {
+            width: 100%;
+        }
+    }
+
+    .modal__input {
+        padding: 1em;
+        font-family: var(--font-primary), sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: var(--color-black);
+        background: transparent;
+        border: 1px solid var(--color-black-80);
+
+        &:focus {
+            border: 1px solid var(--color-black);
+        }
+
+        &.modal__input--error {
+            border-color: red;
+        }
+    }
+
+    .modal__input-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        .modal__error {
+            color: red;
+        }
     }
 }

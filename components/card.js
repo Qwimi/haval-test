@@ -140,9 +140,6 @@ class CarCard extends HTMLElement {
 			
 			
 			<app-modal>
-				<div data-modal-title>
-					Заголовок модалки
-				</div>
 			</app-modal>
         `;
     }

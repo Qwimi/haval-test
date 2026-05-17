@@ -65,7 +65,7 @@ class TimerSection extends HTMLElement {
             
 			<app-modal>
 				<div data-modal-title>
-					Заголовок модалки
+					Зафиксировать условия
 				</div>
 			</app-modal>
         `;
