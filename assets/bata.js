@@ -8,17 +8,17 @@ export const carsData = [
         stockCount: 21,
         images: [
             {
-                url: "/assets/images/m6/white.png",
+                url: "assets/images/m6/white.png",
                 colorName: "Белый-неметаллик",
                 colorCode: "#E7E7E7"
             },
             {
-                url: "/assets/images/m6/gray.png",
+                url: "assets/images/m6/gray.png",
                 colorName: "Серый-неметаллик",
                 colorCode: "#A1A1A1"
             },
             {
-                url: "/assets/images/m6/black.png",
+                url: "assets/images/m6/black.png",
                 colorName: "Черный-неметаллик",
                 colorCode: "#000000"
             },
@@ -39,22 +39,22 @@ export const carsData = [
         stockCount: null,
         images: [
             {
-                url: "/assets/images/dargoX/agate.png",
+                url: "assets/images/dargoX/agate.png",
                 colorName: "Агат",
                 colorCode: "#E7E7E7"
             },
             {
-                url: "/assets/images/dargoX/graphite-quartz.png",
+                url: "assets/images/dargoX/graphite-quartz.png",
                 colorName: "Графитовый-кварц",
                 colorCode: "#ADADAD"
             },
             {
-                url: "/assets/images/dargoX/terracotta.png",
+                url: "assets/images/dargoX/terracotta.png",
                 colorName: "Терракотовый",
                 colorCode: "#A13A21"
             },
             {
-                url: "/assets/images/dargoX/black jade.png",
+                url: "assets/images/dargoX/black jade.png",
                 colorName: "Черный-нефрит",
                 colorCode: "#000000"
             },
@@ -75,22 +75,22 @@ export const carsData = [
         stockCount: null,
         images: [
             {
-                url: "/assets/images/dargoX/agate.png",
+                url: "assets/images/dargoX/agate.png",
                 colorName: "Агат",
                 colorCode: "#000"
             },
             {
-                url: "/assets/images/dargoX/graphite-quartz.png",
+                url: "assets/images/dargoX/graphite-quartz.png",
                 colorName: "Графитовый-кварц",
                 colorCode: "#4A4A4A"
             },
             {
-                url: "/assets/images/dargoX/terracotta.png",
+                url: "assets/images/dargoX/terracotta.png",
                 colorName: "Терракотовый",
                 colorCode: "#E2725B"
             },
             {
-                url: "/assets/images/dargoX/black jade.png",
+                url: "assets/images/dargoX/black jade.png",
                 colorName: "Черный-нефрит",
                 colorCode: "#2F2F2F"
             },
@@ -110,17 +110,17 @@ export const carsData = [
         stockCount: 21,
         images: [
             {
-                url: "/assets/images/m6/white.png",
+                url: "assets/images/m6/white.png",
                 colorName: "Белый-неметаллик",
                 colorCode: "#E7E7E7"
             },
             {
-                url: "/assets/images/m6/gray.png",
+                url: "assets/images/m6/gray.png",
                 colorName: "Серый-неметаллик",
                 colorCode: "#A1A1A1"
             },
             {
-                url: "/assets/images/m6/black.png",
+                url: "assets/images/m6/black.png",
                 colorName: "Черный-неметаллик",
                 colorCode: "#000000"
             },

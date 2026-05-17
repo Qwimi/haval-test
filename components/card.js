@@ -64,15 +64,15 @@ class CarCard extends HTMLElement {
         const slidesHtml = images.map((image) => `
 			<div class="swiper-slide">
 				<a
-						href="${image.url}"
-						data-fancybox="gallery-${this.instanceId}"
-						data-caption="${image.colorName}"
-						class="card__image-link"
+                    href="${image.url}"
+                    data-fancybox="gallery-${this.instanceId}"
+                    data-caption="${image.colorName}"
+                    class="card__image-link"
 				>
 					<img
-							src="${image.url}"
-							alt="${name} ${image.colorName}"
-							class="card__image"
+                        src="${image.url}"
+                        alt="${name} ${image.colorName}"
+                        class="card__image"
 					/>
 				</a>
 			</div>
